@@ -1,0 +1,201 @@
+{"zhangfei_bisha_0": {
+    "flipX": false,
+    "flipY": false,
+    "pixelOffsetX": 150,
+    "pixelOffsetY": 95,
+    "repeatNum": 1,
+    "duration": 0.1,
+    "width": 426,
+    "height": 100,
+    "frames": ["zhangfei_bisha_001", "zhangfei_bisha_002", "zhangfei_bisha_003", "zhangfei_bisha_004", "zhangfei_bisha_005", "zhangfei_bisha_006", "zhangfei_bisha_007", "zhangfei_bisha_008", "zhangfei_bisha_009", "zhangfei_bisha_010", "zhangfei_bisha_011", "zhangfei_bisha_012", "zhangfei_bisha_013"]
+}, "zhangfei_bisha_1": {
+    "flipX": true,
+    "flipY": false,
+    "pixelOffsetX": 270,
+    "pixelOffsetY": 95,
+    "repeatNum": 1,
+    "duration": 0.1,
+    "width": 426,
+    "height": 100,
+    "frames": ["zhangfei_bisha_001", "zhangfei_bisha_002", "zhangfei_bisha_003", "zhangfei_bisha_004", "zhangfei_bisha_005", "zhangfei_bisha_006", "zhangfei_bisha_007", "zhangfei_bisha_008", "zhangfei_bisha_009", "zhangfei_bisha_010", "zhangfei_bisha_011", "zhangfei_bisha_012", "zhangfei_bisha_013"]
+}, "zhangfei_die_0": {
+    "flipX": false,
+    "flipY": false,
+    "pixelOffsetX": 50,
+    "pixelOffsetY": 140,
+    "repeatNum": 1,
+    "duration": 0.1,
+    "width": 225,
+    "height": 157,
+    "frames": ["zhangfei_die_001", "zhangfei_die_002", "zhangfei_die_003", "zhangfei_die_004", "zhangfei_die_005", "zhangfei_die_006", "zhangfei_die_007", "zhangfei_die_008", "zhangfei_die_009"]
+}, "zhangfei_die_1": {
+    "flipX": true,
+    "flipY": false,
+    "pixelOffsetX": 170,
+    "pixelOffsetY": 140,
+    "repeatNum": 1,
+    "duration": 0.1,
+    "width": 225,
+    "height": 157,
+    "frames": ["zhangfei_die_001", "zhangfei_die_002", "zhangfei_die_003", "zhangfei_die_004", "zhangfei_die_005", "zhangfei_die_006", "zhangfei_die_007", "zhangfei_die_008", "zhangfei_die_009"]
+}, "zhangfei_fall_0": {
+    "flipX": false,
+    "flipY": false,
+    "pixelOffsetX": 100,
+    "pixelOffsetY": 180,
+    "repeatNum": 1,
+    "duration": 0.1,
+    "width": 226,
+    "height": 192,
+    "frames": ["zhangfei_fall_001", "zhangfei_fall_002", "zhangfei_fall_003", "zhangfei_fall_004", "zhangfei_fall_005", "zhangfei_fall_006", "zhangfei_fall_007", "zhangfei_fall_008", "zhangfei_fall_009", "zhangfei_fall_010", "zhangfei_fall_011", "zhangfei_fall_012", "zhangfei_fall_013", "zhangfei_fall_014", "zhangfei_fall_015", "zhangfei_fall_016", "zhangfei_fall_017", "zhangfei_fall_018"]
+}, "zhangfei_fall_1": {
+    "flipX": true,
+    "flipY": false,
+    "pixelOffsetX": 120,
+    "pixelOffsetY": 180,
+    "repeatNum": 1,
+    "duration": 0.1,
+    "width": 226,
+    "height": 192,
+    "frames": ["zhangfei_fall_001", "zhangfei_fall_002", "zhangfei_fall_003", "zhangfei_fall_004", "zhangfei_fall_005", "zhangfei_fall_006", "zhangfei_fall_007", "zhangfei_fall_008", "zhangfei_fall_009", "zhangfei_fall_010", "zhangfei_fall_011", "zhangfei_fall_012", "zhangfei_fall_013", "zhangfei_fall_014", "zhangfei_fall_015", "zhangfei_fall_016", "zhangfei_fall_017", "zhangfei_fall_018"]
+}, "zhangfei_commonAttack_0": {
+    "flipX": false,
+    "flipY": false,
+    "pixelOffsetX": 120,
+    "pixelOffsetY": 110,
+    "repeatNum": 1,
+    "duration": 0.1,
+    "width": 290,
+    "height": 131,
+    "frames": ["zhangfei_commonAttack_001", "zhangfei_commonAttack_002", "zhangfei_commonAttack_003", "zhangfei_commonAttack_004", "zhangfei_commonAttack_005", "zhangfei_commonAttack_006", "zhangfei_commonAttack_007", "zhangfei_commonAttack_008", "zhangfei_commonAttack_009", "zhangfei_commonAttack_010"]
+}, "zhangfei_commonAttack_1": {
+    "flipX": true,
+    "flipY": false,
+    "pixelOffsetX": 170,
+    "pixelOffsetY": 110,
+    "repeatNum": 1,
+    "duration": 0.1,
+    "width": 290,
+    "height": 131,
+    "frames": ["zhangfei_commonAttack_001", "zhangfei_commonAttack_002", "zhangfei_commonAttack_003", "zhangfei_commonAttack_004", "zhangfei_commonAttack_005", "zhangfei_commonAttack_006", "zhangfei_commonAttack_007", "zhangfei_commonAttack_008", "zhangfei_commonAttack_009", "zhangfei_commonAttack_010"]
+}, "zhangfei_hurt_0": {
+    "flipX": false,
+    "flipY": false,
+    "pixelOffsetX": 60,
+    "pixelOffsetY": 75,
+    "repeatNum": 1,
+    "duration": 0.1,
+    "width": 165,
+    "height": 80,
+    "frames": ["zhangfei_hurt_001", "zhangfei_hurt_002"]
+}, "zhangfei_hurt_1": {
+    "flipX": true,
+    "flipY": false,
+    "pixelOffsetX": 100,
+    "pixelOffsetY": 75,
+    "repeatNum": 1,
+    "duration": 0.1,
+    "width": 165,
+    "height": 80,
+    "frames": ["zhangfei_hurt_001", "zhangfei_hurt_002"]
+}, "zhangfei_jumpAttack_0": {
+    "flipX": false,
+    "flipY": false,
+    "pixelOffsetX": 80,
+    "pixelOffsetY": 90,
+    "repeatNum": 1,
+    "duration": 0.1,
+    "width": 247,
+    "height": 139,
+    "frames": ["zhangfei_jumpAttack_001", "zhangfei_jumpAttack_002", "zhangfei_jumpAttack_003", "zhangfei_jumpAttack_004", "zhangfei_jumpAttack_005", "zhangfei_jumpAttack_006"]
+}, "zhangfei_jumpAttack_1": {
+    "flipX": true,
+    "flipY": false,
+    "pixelOffsetX": 170,
+    "pixelOffsetY": 90,
+    "repeatNum": 1,
+    "duration": 0.1,
+    "width": 247,
+    "height": 139,
+    "frames": ["zhangfei_jumpAttack_001", "zhangfei_jumpAttack_002", "zhangfei_jumpAttack_003", "zhangfei_jumpAttack_004", "zhangfei_jumpAttack_005", "zhangfei_jumpAttack_006"]
+}, "zhangfei_jump_0": {
+    "flipX": false,
+    "flipY": false,
+    "pixelOffsetX": 55,
+    "pixelOffsetY": 170,
+    "repeatNum": 1,
+    "duration": 0.1,
+    "width": 182,
+    "height": 174,
+    "frames": ["zhangfei_jump_001", "zhangfei_jump_002", "zhangfei_jump_003", "zhangfei_jump_004", "zhangfei_jump_005", "zhangfei_jump_006"]
+}, "zhangfei_jump_1": {
+    "flipX": true,
+    "flipY": false,
+    "pixelOffsetX": 125,
+    "pixelOffsetY": 170,
+    "repeatNum": 1,
+    "duration": 0.1,
+    "width": 182,
+    "height": 174,
+    "frames": ["zhangfei_jump_001", "zhangfei_jump_002", "zhangfei_jump_003", "zhangfei_jump_004", "zhangfei_jump_005", "zhangfei_jump_006"]
+}, "zhangfei_move_0": {
+    "flipX": false,
+    "flipY": false,
+    "pixelOffsetX": 60,
+    "pixelOffsetY": 85,
+    "repeatNum": -1,
+    "duration": 0.1,
+    "width": 157,
+    "height": 91,
+    "frames": ["zhangfei_move_001", "zhangfei_move_002", "zhangfei_move_003", "zhangfei_move_004", "zhangfei_move_005", "zhangfei_move_006", "zhangfei_move_007", "zhangfei_move_008"]
+}, "zhangfei_move_1": {
+    "flipX": true,
+    "flipY": false,
+    "pixelOffsetX": 110,
+    "pixelOffsetY": 85,
+    "repeatNum": -1,
+    "duration": 0.1,
+    "width": 157,
+    "height": 91,
+    "frames": ["zhangfei_move_001", "zhangfei_move_002", "zhangfei_move_003", "zhangfei_move_004", "zhangfei_move_005", "zhangfei_move_006", "zhangfei_move_007", "zhangfei_move_008"]
+}, "zhangfei_run_0": {
+    "flipX": false,
+    "flipY": false,
+    "pixelOffsetX": 65,
+    "pixelOffsetY": 90,
+    "repeatNum": -1,
+    "duration": 0.1,
+    "width": 187,
+    "height": 98,
+    "frames": ["zhangfei_run_001", "zhangfei_run_002", "zhangfei_run_003", "zhangfei_run_004", "zhangfei_run_005", "zhangfei_run_006"]
+}, "zhangfei_run_1": {
+    "flipX": true,
+    "flipY": false,
+    "pixelOffsetX": 120,
+    "pixelOffsetY": 90,
+    "repeatNum": -1,
+    "duration": 0.1,
+    "width": 187,
+    "height": 98,
+    "frames": ["zhangfei_run_001", "zhangfei_run_002", "zhangfei_run_003", "zhangfei_run_004", "zhangfei_run_005", "zhangfei_run_006"]
+}, "zhangfei_stand_0": {
+    "flipX": false,
+    "flipY": false,
+    "pixelOffsetX": 80,
+    "pixelOffsetY": 70,
+    "repeatNum": -1,
+    "duration": 0.1,
+    "width": 190,
+    "height": 83,
+    "frames": ["zhangfei_stand_001", "zhangfei_stand_002", "zhangfei_stand_003", "zhangfei_stand_004", "zhangfei_stand_005", "zhangfei_stand_006", "zhangfei_stand_007", "zhangfei_stand_008", "zhangfei_stand_009", "zhangfei_stand_010", "zhangfei_stand_011"]
+}, "zhangfei_stand_1": {
+    "flipX": true,
+    "flipY": false,
+    "pixelOffsetX": 120,
+    "pixelOffsetY": 75,
+    "repeatNum": -1,
+    "duration": 0.1,
+    "width": 190,
+    "height": 83,
+    "frames": ["zhangfei_stand_001", "zhangfei_stand_002", "zhangfei_stand_003", "zhangfei_stand_004", "zhangfei_stand_005", "zhangfei_stand_006", "zhangfei_stand_007", "zhangfei_stand_008", "zhangfei_stand_009", "zhangfei_stand_010", "zhangfei_stand_011"]
+}}

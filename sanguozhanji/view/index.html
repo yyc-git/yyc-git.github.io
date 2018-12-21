@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta content="text/html" charset="utf-8">
+
+</head>
+<body style="background-color: black;color: #ffffff;">
+<div id="gameBody">
+    <div id="info" style="font-size: 30px;">
+    </div>
+
+    <div id="gameArea" style="display: none;">
+        <canvas id="mapLayerCanvas" width="800" height="430"></canvas>
+        <canvas id="entityLayerCanvas" width="800" height="430"></canvas>
+        <canvas id="effectLayerCanvas" width="800" height="430"></canvas>
+    </div>
+</div>
+
+<div style="position: absolute;left:850px;top:0px;font-size: 30px;">
+    <p>三国战记 v0.1</p>
+
+    <p style="font-size: 20px;">作者：YYC</p>
+
+    <p>w、s、a、d键分别为上下左右方向键 <br/>
+
+        连续点击同一方向键两次，可跑动 <br/>
+
+        按j可普通攻击敌人 <br/>
+
+        按空格键space可跳跃 <br/>
+
+        跳跃过程中按j可跳跃攻击敌人</p>
+</div>
+<div id="systemInfo" style="position: absolute;left:850px;top:350px;font-size: 25px;color: red;">
+</div>
+
+
+<script src="../script/yEngine2D/main.js"></script>
+
+<script>
+    YE.main.setConfig({
+        engineDir: "../script/yEngine2D/",
+        userFilePaths: [
+            "../script/act/LevelManager.js",
+            "../script/act/Scene.js",
+            "../script/act/ui.js",
+            "../script/act/config.js",
+            "../script/act/KeyManager.js",
+
+            "../script/act/action/Attack.js",
+
+            "../script/act/layer/MapLayer.js"      ,
+            "../script/act/layer/EntityLayer.js"      ,
+
+            "../script/act/sprite/Sprite.js",
+            "../script/act/sprite/PlayerSprite.js",
+            "../script/act/sprite/EnemySprite.js",
+
+            "../script/act/data/resourceTable.js",
+            "../script/act/data/levelData.js"
+        ],
+        onload: function () {
+            LevelManager.getInstance().start();
+        }
+    });
+</script>
+</body>
+</html>

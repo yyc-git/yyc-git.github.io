@@ -1,0 +1,1 @@
+﻿window.jsLoader_forTest = 100;

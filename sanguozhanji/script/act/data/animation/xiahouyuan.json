@@ -1,0 +1,61 @@
+{"xiahouyuan_fall_0": {
+    "flipX": false,
+    "flipY": false,
+    "pixelOffsetX": 180,
+    "pixelOffsetY": 160,
+    "repeatNum": 1,
+    "duration": 0.1,
+    "width": 284,
+    "height": 178,
+    "frames": ["xiahouyuan_fall_001", "xiahouyuan_fall_002", "xiahouyuan_fall_003", "xiahouyuan_fall_004", "xiahouyuan_fall_005", "xiahouyuan_fall_006", "xiahouyuan_fall_007", "xiahouyuan_fall_008", "xiahouyuan_fall_009", "xiahouyuan_fall_010"]
+}, "xiahouyuan_fall_1": {
+    "flipX": true,
+    "flipY": false,
+    "pixelOffsetX": 100,
+    "pixelOffsetY": 160,
+    "repeatNum": 1,
+    "duration": 0.1,
+    "width": 284,
+    "height": 178,
+    "frames": ["xiahouyuan_fall_001", "xiahouyuan_fall_002", "xiahouyuan_fall_003", "xiahouyuan_fall_004", "xiahouyuan_fall_005", "xiahouyuan_fall_006", "xiahouyuan_fall_007", "xiahouyuan_fall_008", "xiahouyuan_fall_009", "xiahouyuan_fall_010"]
+}, "xiahouyuan_hurt_0": {
+    "flipX": false,
+    "flipY": false,
+    "pixelOffsetX": 70,
+    "pixelOffsetY": 95,
+    "repeatNum": 1,
+    "duration": 0.1,
+    "width": 171,
+    "height": 99,
+    "frames": ["xiahouyuan_hurt_001", "xiahouyuan_hurt_002"]
+}, "xiahouyuan_hurt_1": {
+    "flipX": true,
+    "flipY": false,
+    "pixelOffsetX": 100,
+    "pixelOffsetY": 95,
+    "repeatNum": 1,
+    "duration": 0.1,
+    "width": 171,
+    "height": 99,
+    "frames": ["xiahouyuan_hurt_001", "xiahouyuan_hurt_002"]
+}, "xiahouyuan_stand_1": {
+    "flipX": true,
+    "flipY": false,
+    "pixelOffsetX": 110,
+    "pixelOffsetY": 90,
+    "repeatNum": -1,
+    "duration": 0.1,
+    "width": 176,
+    "height": 95,
+    "frames": ["xiahouyuan_stand_001", "xiahouyuan_stand_002", "xiahouyuan_stand_003", "xiahouyuan_stand_004", "xiahouyuan_stand_005", "xiahouyuan_stand_006", "xiahouyuan_stand_007", "xiahouyuan_stand_008", "xiahouyuan_stand_009", "xiahouyuan_stand_010"]
+}, "xiahouyuan_stand_0": {
+    "flipX": false,
+    "flipY": false,
+    "pixelOffsetX": 60,
+    "pixelOffsetY": 90,
+    "repeatNum": -1,
+    "duration": 0.1,
+    "width": 176,
+    "height": 95,
+    "frames": ["xiahouyuan_stand_001", "xiahouyuan_stand_002", "xiahouyuan_stand_003", "xiahouyuan_stand_004", "xiahouyuan_stand_005", "xiahouyuan_stand_006", "xiahouyuan_stand_007", "xiahouyuan_stand_008", "xiahouyuan_stand_009", "xiahouyuan_stand_010"]
+}}

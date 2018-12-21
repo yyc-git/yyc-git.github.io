@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>测试页面</title>
+    <meta charset="utf-8" content="text/html">
+    <!--jasmine-->
+    <link rel="stylesheet" type="text/css" href="../script/jasmine/lib/jasmine-1.3.1/jasmine.css"/>
+
+    <script src="../script/jasmine/lib/jasmine-1.3.1/jasmine.js"></script>
+    <script src="../script/jasmine/lib/jasmine-1.3.1/jasmine-html.js"></script>
+
+    <!--jasmine扩展-->
+    <script src="../script/jasmine/spec/helper/specHelper.js"></script>
+    <script src="../script/jasmine/src/tool.js"></script>
+
+
+    <!--依赖库-->
+    <script src="../script/yEngine2D/import/jquery-1.7.js"></script>
+    <script src="../script/yEngine2D/import/jsExtend.js"></script>
+    <script src="../script/yEngine2D/import/YOOP.js"></script>
+
+    <!--测试工具-->
+    <script src="../script/jasmine/sinonJs/sinon.js"></script>
+    <script src="../script/jasmine/sinonJs/sinonExtend.js"></script>
+
+    <!--yEngine-->
+    <script src="../script/yEngine2D/main.js"></script>
+    <script src="../script/yEngine2D/tool/Tool.js"></script>
+
+    <script src="../script/yEngine2D/base/Entity.js"></script>
+    <script src="../script/yEngine2D/base/Node.js"></script>
+    <script src="../script/yEngine2D/base/NodeContainer.js"></script>
+    <script src="../script/yEngine2D/base/CollectionManager.js"></script>
+
+    <script src="../script/yEngine2D/structure/Hash.js"></script>
+    <script src="../script/yEngine2D/structure/Collection.js"></script>
+    <script src="../script/yEngine2D/structure/Geometry.js"></script>
+
+    <script src="../script/yEngine2D/algorithm/collision.js"></script>
+
+    <script src="../script/yEngine2D/algorithm/FindPath.js"></script>
+
+    <script src="../script/yEngine2D/loader/Loader.js"></script>
+    <script src="../script/yEngine2D/loader/ImgLoader.js"></script>
+    <script src="../script/yEngine2D/loader/JsonLoader.js"></script>
+    <script src="../script/yEngine2D/loader/SoundLoader.js"></script>
+    <script src="../script/yEngine2D/loader/LoaderManager.js"></script>
+
+    <script src="../script/yEngine2D/sound/SoundManager.js"></script>
+
+    <script src="../script/yEngine2D/core/Director.js"></script>
+    <script src="../script/yEngine2D/core/Scene.js"></script>
+    <script src="../script/yEngine2D/core/Layer.js"></script>
+    <script src="../script/yEngine2D/core/Sprite.js"></script>
+
+    <script src="../script/yEngine2D/structure/Bitmap.js"></script>
+
+    <script src="../script/yEngine2D/event/EventManager.js"></script>
+    <script src="../script/yEngine2D/event/Event.js"></script>
+
+    <script src="../script/yEngine2D/animation/AnimationFrame.js"></script>
+    <script src="../script/yEngine2D/animation/Animation.js"></script>
+    <script src="../script/yEngine2D/animation/Frame.js"></script>
+    <script src="../script/yEngine2D/animation/FrameCache.js"></script>
+    <script src="../script/yEngine2D/animation/AnimationManager.js"></script>
+    <script src="../script/yEngine2D/animation/AnimationFrameManager.js"></script>
+    <script src="../script/yEngine2D/animation/AnimationCache.js"></script>
+
+    <script src="../script/yEngine2D/action/Action.js"></script>
+    <script src="../script/yEngine2D/action/ActionInterval.js"></script>
+    <script src="../script/yEngine2D/action/ActionInstant.js"></script>
+
+    <script src="../script/yEngine2D/action/Control.js"></script>
+    <script src="../script/yEngine2D/action/Animate.js"></script>
+    <script src="../script/yEngine2D/action/ActionManager.js"></script>
+    <script src="../script/yEngine2D/action/Repeat.js"></script>
+    <script src="../script/yEngine2D/action/RepeatForever.js"></script>
+    <script src="../script/yEngine2D/action/RepeatCondition.js"></script>
+    <script src="../script/yEngine2D/action/Sequence.js"></script>
+    <script src="../script/yEngine2D/action/Spawn.js"></script>
+    <script src="../script/yEngine2D/action/CallFunc.js"></script>
+    <script src="../script/yEngine2D/action/DelayTime.js"></script>
+    <script src="../script/yEngine2D/action/Place.js"></script>
+    <script src="../script/yEngine2D/action/JumpBy.js"></script>
+    <script src="../script/yEngine2D/action/MoveBy.js"></script>
+
+
+    <script src="../script/yEngine2D/ui/Graphics.js"></script>
+
+    <!--ySoundEngine-->
+    <script src="../script/yEngine2D/ySoundEngine/YSoundEngine.js"></script>
+
+    <!--yEngine test-->
+    <script src="../script/yEngine2D/import/jsExtendSpec.js"></script>
+    <script src="../script/yEngine2D/import/YOOPSpec.js"></script>
+
+    <script src="../script/yEngine2D/tool/ToolSpec.js"></script>
+
+    <script src="../script/yEngine2D/base/EntitySpec.js"></script>
+    <script src="../script/yEngine2D/base/NodeSpec.js"></script>
+    <script src="../script/yEngine2D/base/NodeContainerSpec.js"></script>
+    <script src="../script/yEngine2D/base/CollectionManagerSpec.js"></script>
+
+    <script src="../script/yEngine2D/loader/LoaderSpec.js"></script>
+    <script src="../script/yEngine2D/loader/JsonLoaderSpec.js"></script>
+    <script src="../script/yEngine2D/loader/ImgLoaderSpec.js"></script>
+    <script src="../script/yEngine2D/loader/SoundLoaderSpec.js"></script>
+    <script src="../script/yEngine2D/loader/LoaderManagerSpec.js"></script>
+
+    <script src="../script/yEngine2D/sound/SoundManagerSpec.js"></script>
+
+    <script src="../script/yEngine2D/structure/HashSpec.js"></script>
+    <script src="../script/yEngine2D/structure/CollectionSpec.js"></script>
+    <script src="../script/yEngine2D/structure/GeometrySpec.js"></script>
+
+
+    <script src="../script/yEngine2D/algorithm/FindPathSpec.js"></script>
+
+    <script src="../script/yEngine2D/core/DirectorSpec.js"></script>
+    <script src="../script/yEngine2D/core/SceneSpec.js"></script>
+    <script src="../script/yEngine2D/core/LayerSpec.js"></script>
+    <script src="../script/yEngine2D/core/SpriteSpec.js"></script>
+    <script src="../script/yEngine2D/structure/BitmapSpec.js"></script>
+
+    <script src="../script/yEngine2D/event/EventManagerSpec.js"></script>
+
+    <script src="../script/yEngine2D/action/ActionSpec.js"></script>
+    <script src="../script/yEngine2D/action/ActionIntervalSpec.js"></script>
+    <script src="../script/yEngine2D/action/ActionInstantSpec.js"></script>
+
+    <script src="../script/yEngine2D/action/AnimateSpec.js"></script>
+    <script src="../script/yEngine2D/action/ActionManagerSpec.js"></script>
+    <script src="../script/yEngine2D/action/RepeatSpec.js"></script>
+    <script src="../script/yEngine2D/action/RepeatForeverSpec.js"></script>
+    <script src="../script/yEngine2D/action/RepeatConditionSpec.js"></script>
+    <script src="../script/yEngine2D/action/SequenceSpec.js"></script>
+    <script src="../script/yEngine2D/action/SpawnSpec.js"></script>
+    <script src="../script/yEngine2D/action/CallFuncSpec.js"></script>
+    <script src="../script/yEngine2D/action/DelayTimeSpec.js"></script>
+    <script src="../script/yEngine2D/action/ControlSpec.js"></script>
+    <script src="../script/yEngine2D/action/PlaceSpec.js"></script>
+    <script src="../script/yEngine2D/action/JumpBySpec.js"></script>
+    <script src="../script/yEngine2D/action/MoveBySpec.js"></script>
+
+
+    <script src="../script/yEngine2D/animation/AnimationSpec.js"></script>
+    <script src="../script/yEngine2D/animation/AnimationFrameSpec.js"></script>
+    <script src="../script/yEngine2D/animation/FrameSpec.js"></script>
+    <script src="../script/yEngine2D/animation/FrameCacheSpec.js"></script>
+    <script src="../script/yEngine2D/animation/AnimationManagerSpec.js"></script>
+    <script src="../script/yEngine2D/animation/AnimationFrameManagerSpec.js"></script>
+    <script src="../script/yEngine2D/animation/AnimationCacheSpec.js"></script>
+
+    <script src="../script/yEngine2D/algorithm/collisionSpec.js"></script>
+
+    <script src="../script/yEngine2D/ui/GraphicsSpec.js"></script>
+
+    <script src="../script/yEngine2D/mainSpec.js"></script>
+
+    <!--ySoundEngine test-->
+    <script src="../script/yEngine2D/ySoundEngine/YSoundEngineSpec.js"></script>
+<body>
+
+
+<script type="text/javascript">
+    (function () {
+        var jasmineEnv = jasmine.getEnv();
+        jasmineEnv.updateInterval = 1000;
+
+        var htmlReporter = new jasmine.HtmlReporter();
+
+        jasmineEnv.addReporter(htmlReporter);
+
+        jasmineEnv.specFilter = function (spec) {
+            return htmlReporter.specFilter(spec);
+        };
+        function execJasmine() {
+            jasmineEnv.execute();
+        }
+
+
+        var currentWindowOnload = window.onload;
+
+        if (currentWindowOnload) {
+            currentWindowOnload();
+        }
+        execJasmine();
+    })();
+</script>
+
+</body>
+</html>

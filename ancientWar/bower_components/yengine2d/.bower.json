@@ -1,0 +1,50 @@
+{
+  "name": "yEngine2D",
+  "version": "0.1.2",
+  "main": [
+    "dist/yEngine2D.js",
+    "dist/yEngine2D.min.js"
+  ],
+  "description": "2D HTML5 Game Engine",
+  "ignore": [
+    "bower_components",
+    "src",
+    "test",
+    "node_modules",
+    "Gruntfile.js",
+    ".gitignore",
+    "package.json",
+    "README.md"
+  ],
+  "keywords": [
+    "2D",
+    "HTML5",
+    "game engine",
+    "YEngine2D"
+  ],
+  "authors": {
+    "name": "YYC",
+    "email": "395976266@qq.com",
+    "qq": "395976266",
+    "blog": "http://www.cnblogs.com/chaogex/"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/yyc-git/YEngine2D",
+  "repository": "https://github.com/yyc-git/YEngine2D",
+  "dependencies": {
+    "yoop": "~1.1.0"
+  },
+  "devDependencies": {
+    "jquery": "1.7.1"
+  },
+  "_release": "0.1.2",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.1.2",
+    "commit": "c13ab130725944029ff1903f553a2312e6ac97f9"
+  },
+  "_source": "git://github.com/yyc-git/YEngine2D.git",
+  "_target": "~0.1.2",
+  "_originalSource": "yengine2d",
+  "_direct": true
+}

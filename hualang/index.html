@@ -454,34 +454,46 @@
                 wd.setState(state);
 
                 return _initAssetBundleArrayBufferCache().concat(
-                    wd.loadAllDependencyRABAndSetToState(
+                    // wd.loadAllDependencyRABAndSetToState(
+                    //     sabRelativePath,
+                    //     manifest,
+                    //     [
+                    //         _getAssetBundlePath,
+                    //         // _initAssetBundleArrayBufferCache,
+                    //         _isAssetBundleArrayBufferCached,
+                    //         _getAssetBundleArrayBufferCache,
+                    //         _cacheAssetBundleArrayBuffer
+                    //     ]
+                    // ).merge(
+                    //     wd.loadSABAndSetToState(
+                    //         sabRelativePath,
+                    //         manifest,
+                    //         [
+                    //             _getAssetBundlePath,
+                    //             // _initAssetBundleArrayBufferCache,
+                    //             _isAssetBundleArrayBufferCached,
+                    //             _getAssetBundleArrayBufferCache,
+                    //             _cacheAssetBundleArrayBuffer
+                    //         ]
+
+                    //     )
+                    // )
+
+                    wd.loadSABAndSetToState(
                         sabRelativePath,
                         manifest,
                         [
                             _getAssetBundlePath,
-                            // _initAssetBundleArrayBufferCache,
                             _isAssetBundleArrayBufferCached,
                             _getAssetBundleArrayBufferCache,
                             _cacheAssetBundleArrayBuffer
                         ]
-                    ).merge(
-                        wd.loadSABAndSetToState(
-                            sabRelativePath,
-                            manifest,
-                            [
-                                _getAssetBundlePath,
-                                // _initAssetBundleArrayBufferCache,
-                                _isAssetBundleArrayBufferCached,
-                                _getAssetBundleArrayBufferCache,
-                                _cacheAssetBundleArrayBuffer
-                            ]
 
-                        )
                     )
                 )
-                    .concat(
-                        wd.assembleAllDependencyRAB(sabRelativePath, wholeDependencyRelationMap)
-                    )
+                // .concat(
+                //     wd.assembleAllDependencyRAB(sabRelativePath, wholeDependencyRelationMap)
+                // )
 
 
             })

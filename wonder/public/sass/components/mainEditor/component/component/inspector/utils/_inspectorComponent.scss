@@ -1,0 +1,24 @@
+.inspector-component{
+    width: 100%;
+    margin-bottom: 15px;
+    .component-title{
+        font-size:14px;
+        margin-left:5%;
+        &:hover{
+            color: #00c1de;
+            cursor: pointer;
+        } 
+    }
+    hr{
+        border: 0;
+        height:1px;
+        width:90%;
+        text-align: center;
+        background-color:#a8a8a8;
+    }
+    .component-content{
+        width:90%;
+        margin-left:5%;
+        margin-bottom:10px;
+    }
+}

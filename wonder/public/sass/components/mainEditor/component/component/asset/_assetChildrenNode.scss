@@ -1,0 +1,65 @@
+.wonder-asset-assetChildren {
+    margin-left: 1px;
+    flex: initial;
+    width: 70%;
+    height: 100%;
+    box-sizing: border-box;
+    padding-bottom: 25px;
+    background-color: #444444;
+    display: flex;
+    flex-wrap: wrap;
+    overflow-y: auto;
+    @import "../../../../../utils/_scrollBarUtils.scss";
+    .wonder-asset-fileBox,
+    .wonder-asset-folderBox {
+        width: 120px;
+        height: 85px;
+        margin: 5px;
+        z-index: 100;
+        position: relative;
+        flex: initial;
+        display: flex;
+        flex-direction: column;
+        .item-ground {
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            height: 100%;
+            width: 100%;
+        }
+        .box-image {
+            width: 100%;
+            height: 65px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            img {
+                width: 55px;
+                height: 55px;
+            }
+        }
+        .item-text {
+            width: 100%;
+            height: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 13px;
+            span {
+                padding-top: 2px;
+                width: 94%;
+                display: block;
+                height: 20px;
+                line-height: 20px;
+                text-align: center;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+            }
+        }
+    }
+    .item-active {
+        background: #5C7EA6;
+        border-radius: 10px;
+    }
+}
